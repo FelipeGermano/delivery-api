@@ -1,0 +1,28 @@
+{
+  "name": "delivery-api",
+  "version": "1.0.0",
+  "description": "controlar pedidos de um  delivery de comida.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "start-dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelipeGermano/delivery-api.git"
+  },
+  "author": "Felipe Germano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FelipeGermano/delivery-api/issues"
+  },
+  "homepage": "https://github.com/FelipeGermano/delivery-api#readme",
+  "dependencies": {
+    "consign": "^0.1.6",
+    "express": "^4.18.2",
+    "jsonfile": "^6.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
